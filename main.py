@@ -6,9 +6,9 @@ from flask_restful import Api, Resource
 app = Flask(__name__)
 api = Api(app)
 
-names= {"tim":{"age":19, "gender": "male"},
+names= {"tim":{"age":18, "gender": "male"},
         "bill":{"age":34, "gender": "male"},
-        "amy":{"age":26, "gender": "female"}}
+        "amy":{"age":24, "gender": "female"}}
 
 class Helloworld(Resource):
     def get(self, name):
