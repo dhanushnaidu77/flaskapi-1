@@ -8,7 +8,7 @@ api = Api(app)
 
 names= {"tim":{"age":19, "gender": "male"},
         "bill":{"age":34, "gender": "male"},
-        "amy":{"age":25, "gender": "female"}}
+        "amy":{"age":26, "gender": "female"}}
 
 class Helloworld(Resource):
     def get(self, name):
