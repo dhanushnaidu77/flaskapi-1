@@ -7,7 +7,7 @@ app = Flask(__name__)
 api = Api(app)
 
 names= {"tim":{"age":19, "gender": "male"},
-        "bill":{"age":32, "gender": "male"},
+        "bill":{"age":34, "gender": "male"},
         "amy":{"age":25, "gender": "female"}}
 
 class Helloworld(Resource):
